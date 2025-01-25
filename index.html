@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BusNOW</title>
+    <style>
+        body {
+            font-family:cursive;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background-color:#1A237E;
+        }
+        .container {
+            background-color:#FFDAB9 ;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        .input-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #generateTicketBtn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        #generateTicketBtn:hover {
+            background-color: #0d7812;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BusNOW</h1>
+        
+        <div class="input-group">
+            <label for="nameInput">Full Name</label>
+            <input type="text" id="nameInput" placeholder="Enter your full name">
+        </div>
+        
+        <div class="input-group">
+            <label for="locationInput">Location Details</label>
+            <input type="text" id="locationInput" placeholder="Enter specific location details">
+        </div>
+        
+        <button id="generateTicketBtn">Generate E-Ticket</button>
+    </div>
+
+    <script>
+        document.getElementById('generateTicketBtn').addEventListener('click', function() {
+            const name = document.getElementById('nameInput').value;
+            const location = document.getElementById('locationInput').value;
+            
+            if (name && location) {
+                alert('E-Ticket Generated Successfully!');
+            } else {
+                alert('Please enter both name and location');
+            }
+        });
+    </script>
+</body>
+</html>
