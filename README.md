@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![image](https://github.com/user-attachments/assets/90bf50c6-8854-47a3-b3b0-df566a64686f)
+![image](https://github.com/user-attachments/assets/c3d98045-df0b-4c56-bac7-fd547e66f5b8)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/d90badd8-288a-40d0-805e-9b297259b84a)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/44fa8f85-1bda-44ce-a49f-80590a87ec58)
+
+![image](https://github.com/user-attachments/assets/9cfc2f75-cf3c-41cf-b110-b02e9d9a31ad)
 
 
 # BusNOW ppt
