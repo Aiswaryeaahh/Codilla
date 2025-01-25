@@ -1,4 +1,4 @@
-# [Project Name] 🎯
+# BusNOW 🎯
 
 
 ## Basic Details
@@ -47,8 +47,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/90bf50c6-8854-47a3-b3b0-df566a64686f)
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
@@ -56,16 +55,9 @@ For Software:
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
+# BusNOW ppt
+https://drive.google.com/file/d/1UC28mpDgYdUF2zopkUVkZFpYO6waDY-Q/view?usp=drive_link
 
 
 ## Team Contributions
