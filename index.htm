@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Bus Ticket Generator</title>
+    <title>e-BusNOW Ticket</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:cursive;
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #FFDAB9;
         }
         .ticket {
             background-color: white;
-            border: 2px solid #333;
+            border: 2px solid purple;
             padding: 20px;
             margin-top: 20px;
             display: none;
@@ -25,7 +25,7 @@
             padding: 8px;
         }
         button {
-            background-color: #007bff;
+            background-color: blue;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -34,7 +34,7 @@
     </style>
 </head>
 <body>
-    <h1>E-Bus Ticket Generator</h1>
+    <h1>e-BusNOW Ticket</h1>
     <form id="ticketForm">
         <label>From:</label>
         <input type="text" id="fromLocation" required>
@@ -42,16 +42,12 @@
         <label>To:</label>
         <input type="text" id="toLocation" required>
         
-        <label>Date:</label>
-        <input type="date" id="travelDate" required>
-        
         <button type="button" onclick="generateTicket()">Generate Ticket</button>
     </form>
 
     <div id="ticket" class="ticket">
         <h2>E-Bus Ticket</h2>
         <p><strong>Route:</strong> <span id="displayRoute"></span></p>
-        <p><strong>Date:</strong> <span id="displayDate"></span></p>
         <p><strong>Ticket Number:</strong> <span id="ticketNumber"></span></p>
     </div>
 
@@ -59,12 +55,9 @@
         function generateTicket() {
             const from = document.getElementById('fromLocation').value;
             const to = document.getElementById('toLocation').value;
-            const date = document.getElementById('travelDate').value;
             
             document.getElementById('displayRoute').textContent = `${from} to ${to}`;
-            document.getElementById('displayDate').textContent = new Date(date).toLocaleDateString();
             document.getElementById('ticketNumber').textContent = 'EB' + Math.floor(Math.random() * 1000000);
-
             document.getElementById('ticket').style.display = 'block';
         }
     </script>
