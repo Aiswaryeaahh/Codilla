@@ -70,7 +70,7 @@
             <input type="text" id="locationInput" placeholder="Enter specific location details">
         </div>
         
-        <button id="generateTicketBtn">Generate E-Ticket</button>
+        <button id="generateTicketBtn"><a href="index.htm">Generate E-Ticket</a></button>
     </div>
 
     <script>
@@ -78,11 +78,6 @@
             const name = document.getElementById('nameInput').value;
             const location = document.getElementById('locationInput').value;
             
-            if (name && location) {
-                alert('E-Ticket Generated Successfully!');
-            } else {
-                alert('Please enter both name and location');
-            }
         });
     </script>
 </body>
