@@ -1,77 +1,58 @@
-# [Project Name] 🎯
-
+# Project Name:BusNOW 🎯
 
 ## Basic Details
-### Team Name: [Name]
+Website that generates e-Ticket for KSRTC 
 
+### Team Name: Codilla
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Aiswarya V S - LBSITW
+- Member 2: Arpitha P Ajay - LBSITW
+- Member 3: Devananda D - LBSITW
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+file:///C:/Users/Aiswarya%20V%20S/Codilla/login.html
 
 ### Project Description
-[2-3 lines about what your project does]
+It allows user to send a request access for a certain distant place. When the request send by the users exceed a certain ammount(say 50), (All the requests are send to the KSRTC).Therefore the KSRTC can reschedule the bus timings accordingly like they can increase the number of buses during peak hours.
+This website can also generate e-tickets making it more ecofriendly. It reduces the usage of papers thereby saving the trees.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Unavailability of KSRTC buses during peak hours.
+Enormous wastage of paper. 
+Crowded bus stations.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Making buses available during peak hours. Generating e-ticket thereby redusing the use of paper.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- html and css
+- chatgpt and claude
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+# Screenshots
+![image](https://github.com/user-attachments/assets/c3d98045-df0b-4c56-bac7-fd547e66f5b8)
+Login page 
 
-### Implementation
-For Software:
-# Installation
-[commands]
+![image](https://github.com/user-attachments/assets/d90badd8-288a-40d0-805e-9b297259b84a)
+Register page
 
-# Run
-[commands]
+![image](https://github.com/user-attachments/assets/44fa8f85-1bda-44ce-a49f-80590a87ec58)
+Request for bus and e-ticket generation
 
-### Project Documentation
-For Software:
+![image](https://github.com/user-attachments/assets/9cfc2f75-cf3c-41cf-b110-b02e9d9a31ad)
+Generation of e-ticket
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
+# BusNOW ppt
+https://drive.google.com/file/d/1UC28mpDgYdUF2zopkUVkZFpYO6waDY-Q/view?usp=drive_link
 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Aiswarya V S : Request for bus and e-ticket generation page 
+- Arpitha P Ajay: Generation of e-ticket, BusNOW ppt
+- Devananda D: Login page & Register page
 
 ---
 Made with ❤️ at TinkerHub
